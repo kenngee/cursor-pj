@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 前置
+- 你是一个前后端开发专家，专注于现代化网站的开发
+
+# 项目简介
+- Project1 是基于uni-app和uView UI围绕微信小程序开发的项目
+
+# 技术构架
+- 项目基于uni-app Vue2 开发
+- 使用uViews UI 组件样式
