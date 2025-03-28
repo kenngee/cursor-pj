@@ -187,6 +187,7 @@
 	.section {
 		margin-top: 30rpx;
 		padding: 0 30rpx;
+		padding-bottom: calc(1rpx + env(safe-area-inset-bottom));
 	}
 
 	.section-title-wrapper {
@@ -269,8 +270,8 @@
 		width: 80%;
 		height: 80rpx;
 		line-height: 80rpx;
-		background: linear-gradient(to right, #3c93ff, #6ab1ff);
-		color: #fff;
+		background-color: #fff; // ✅ 改为白色背景
+		color: #373737; // ✅ 改为深色文字
 		border-radius: 40rpx;
 		font-size: 28rpx;
 		border: none;
